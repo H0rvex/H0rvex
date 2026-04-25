@@ -4,7 +4,7 @@
 
 # Hi, I am Győző!
 
-`Budapest, HU` → `ELTE IK · CS BSc` → `Embodied AI`
+`Budapest, HU` → `ELTE IK · CS BSc`
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
