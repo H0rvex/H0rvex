@@ -1,12 +1,10 @@
 <svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img">
   <title>Robotics learning workspace — győző@robotics-lab</title>
-  <desc>Animated terminal window banner with quadruped robot illustration</desc>
+  <desc>Animated terminal window banner with quadruped robot</desc>
 
-  <!-- Window body -->
   <rect width="1200" height="360" fill="#02070B"/>
   <rect x="0.5" y="0.5" width="1199" height="359" fill="none" stroke="#1a4d24" stroke-width="1"/>
 
-  <!-- Title bar -->
   <rect x="0" y="0" width="1200" height="36" fill="#0a1410"/>
   <line x1="0" y1="36" x2="1200" y2="36" stroke="#1a4d24" stroke-width="1"/>
   <circle cx="22" cy="18" r="6" fill="#d44a3c"/>
@@ -15,10 +13,7 @@
   <text x="600" y="23" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
         font-size="12" fill="#5a8a6a" text-anchor="middle" letter-spacing="0.5">győző@robotics-lab — zsh</text>
 
-  <!-- Quadruped robot - assembles from chassis outward -->
   <g stroke="#7CFF6B" fill="none" stroke-linecap="round" stroke-linejoin="round">
-
-    <!-- Floor -->
     <g stroke="#1a4d24" stroke-width="1" opacity="0">
       <line x1="100" y1="298" x2="340" y2="298"/>
       <line x1="110" y1="308" x2="135" y2="308"/>
@@ -29,7 +24,6 @@
       <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.2s" fill="freeze"/>
     </g>
 
-    <!-- Far legs (behind body, dimmed for depth) -->
     <g opacity="0">
       <line x1="180" y1="240" x2="192" y2="268" stroke-width="1.2" opacity="0.5"/>
       <line x1="192" y1="268" x2="186" y2="290" stroke-width="1.2" opacity="0.5"/>
@@ -42,12 +36,10 @@
       <animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.3s" fill="freeze"/>
     </g>
 
-    <!-- Body chassis -->
     <rect x="150" y="195" width="140" height="48" rx="5" stroke-width="2" fill="#02070B" opacity="0">
       <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.2s" fill="freeze"/>
     </rect>
 
-    <!-- Body segmentation -->
     <g opacity="0">
       <line x1="195" y1="195" x2="195" y2="243" stroke-width="0.5" opacity="0.4"/>
       <line x1="245" y1="195" x2="245" y2="243" stroke-width="0.5" opacity="0.4"/>
@@ -55,7 +47,6 @@
       <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.2s" fill="freeze"/>
     </g>
 
-    <!-- Face plate with eye sensor -->
     <g opacity="0">
       <rect x="290" y="203" width="24" height="32" rx="3" stroke-width="1.5" fill="#02070B"/>
       <circle cx="302" cy="219" r="3.5" fill="#7CFF6B" stroke="none"/>
@@ -64,7 +55,6 @@
       <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.2s" fill="freeze"/>
     </g>
 
-    <!-- Lidar dome on top -->
     <g opacity="0">
       <rect x="232" y="178" width="32" height="17" rx="2" stroke-width="1.5" fill="#02070B"/>
       <circle cx="248" cy="186" r="2" fill="#7CFF6B" stroke="none"/>
@@ -73,14 +63,12 @@
       <animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.2s" fill="freeze"/>
     </g>
 
-    <!-- Tail handle -->
     <g opacity="0">
       <line x1="150" y1="215" x2="138" y2="208" stroke-width="1.5"/>
       <circle cx="138" cy="208" r="3" fill="#02070B" stroke-width="1.5"/>
       <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.2s" fill="freeze"/>
     </g>
 
-    <!-- Near hip joints -->
     <g opacity="0">
       <circle cx="175" cy="240" r="4.5" fill="#02070B" stroke-width="1.5"/>
       <circle cx="175" cy="240" r="1.5" fill="#7CFF6B" stroke="none"/>
@@ -89,7 +77,6 @@
       <animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.2s" fill="freeze"/>
     </g>
 
-    <!-- Near legs - deploy via stroke-dashoffset -->
     <line x1="175" y1="240" x2="163" y2="270" stroke-width="2.2" stroke-dasharray="100" stroke-dashoffset="100">
       <animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.0s" dur="0.3s" fill="freeze"/>
     </line>
@@ -103,7 +90,6 @@
       <animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.25s" dur="0.25s" fill="freeze"/>
     </line>
 
-    <!-- Knee joints (last, after legs draw) -->
     <g opacity="0">
       <circle cx="163" cy="270" r="3.5" fill="#02070B" stroke-width="1.5"/>
       <circle cx="284" cy="270" r="3.5" fill="#02070B" stroke-width="1.5"/>
@@ -111,7 +97,6 @@
     </g>
   </g>
 
-  <!-- Neofetch output -->
   <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13.5">
     <text x="460" y="82" fill="#3a6f44" opacity="0">// robotics learning workspace
       <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.15s" fill="freeze"/>
@@ -142,7 +127,6 @@
     </text>
   </g>
 
-  <!-- Bottom prompt -->
   <g opacity="0">
     <text x="60" y="328" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="0.5">
       <tspan fill="#3a6f44">❯</tspan><tspan fill="#7CFF6B"> győző@robotics-lab</tspan><tspan fill="#3a6f44">:</tspan><tspan fill="#5a8a6a">~</tspan><tspan fill="#3a6f44">$</tspan> <tspan fill="#7CFF6B">▊<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="1.2s" repeatCount="indefinite" begin="1.85s"/></tspan>
