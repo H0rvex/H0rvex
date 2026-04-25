@@ -32,8 +32,3 @@
 - `RL` &nbsp;&nbsp;Offline RL, Decision Transformers
 - `CV` &nbsp;&nbsp;Vision-based control, perception-to-action pipelines
 - `ROS` &nbsp;ROS 2 middleware fundamentals
-
-## ❯ stack
-
-`now` &nbsp;&nbsp;Python · PyTorch · NumPy · Gymnasium · Docker · Linux  
-`next` &nbsp;MuJoCo · Isaac Lab · ROS 2 · Offline RL · Vision-based control
