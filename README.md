@@ -37,7 +37,3 @@
 
 `now` &nbsp;&nbsp;Python · PyTorch · NumPy · Gymnasium · Docker · Linux  
 `next` &nbsp;MuJoCo · Isaac Lab · ROS 2 · Offline RL · Vision-based control
-
----
-
-<sub>`mostly building. occasionally writing about it.`</sub>
