@@ -1,25 +1,33 @@
-# Hi, I'm Győző
+<p align="center">
+  <img src="assets/banner.png" alt="Embodied AI / Robotics banner" width="100%">
+</p>
 
-CS-focused student building toward embodied AI, robotics, and deep learning engineering.
+<h1 align="center">Hi, I'm Győző</h1>
 
-## Current focus
+<p align="center">
+  CS-focused student building toward embodied AI, robotics, and deep learning engineering.
+</p>
 
-- Reinforcement learning: REINFORCE, DQN, PPO, Decision Transformers
-- Computer vision: CNNs, ResNet, U-Net, ViT
-- Deep learning systems: transformers, training loops, evaluation, benchmarking
-- Next step: MuJoCo / Isaac Lab robotics simulation
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img src="https://img.shields.io/badge/Reinforcement%20Learning-Gymnasium-0081A7?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Robotics-MuJoCo%20%2F%20Isaac%20Lab-6C63FF?style=for-the-badge">
+</p>
 
-## Selected projects
+## Selected Projects
 
-### RL Gymnasium
-From-scratch REINFORCE, DQN, and PPO implementations in PyTorch with reproducible configs, multi-seed evaluation, plots, tests, Docker, and reports.
+<table>
+  <tr>
+    <td width="45%">
+      <img src="assets/ppo_lunarlander.gif" alt="PPO LunarLander" width="100%">
+    </td>
+    <td width="55%">
+      <h3>RL Gymnasium</h3>
+      <p>
+        From-scratch REINFORCE, DQN, and PPO in PyTorch with configs,
+        tests, multi-seed evaluation, plots, Docker, and reports.
+      </p>
+    </td>
+  </tr>
+</table>
 
-### U-Net Pet Segmentation
-Semantic segmentation on Oxford-IIIT Pet with U-Net, Dice/CE loss, augmentation, qualitative predictions, metrics, and clean training infrastructure.
-
-### Transformer from Scratch
-Encoder/decoder-style transformer components implemented in PyTorch, including attention, embeddings, training loop, and text classification/language modeling experiments.
-
-## Direction
-
-I'm currently strengthening my ML/RL/CV foundations before moving deeper into embodied AI projects using MuJoCo, Isaac Lab, and robotics simulation.
