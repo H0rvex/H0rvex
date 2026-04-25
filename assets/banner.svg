@@ -116,7 +116,7 @@
     <text x="460" y="82" fill="#3a6f44" opacity="0">// robotics learning workspace
       <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.15s" fill="freeze"/>
     </text>
-    <text x="460" y="120" fill="#7CFF6B" font-weight="500" opacity="0">győző<tspan fill="#3a6f44">@</tspan>robotics-lab
+    <text x="460" y="120" fill="#7CFF6B" font-weight="500" opacity="0">győző@robotics-lab
       <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.15s" fill="freeze"/>
     </text>
     <text x="460" y="138" fill="#1a4d24" opacity="0">──────────────────
