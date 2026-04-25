@@ -1,149 +1,43 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Building toward Embodied AI" width="100%">
+  <img src="assets/banner.svg" width="100%">
 </p>
 
-```bash
-> whoami
-Győző — CS-focused student building toward embodied AI, robotics, and deep learning engineering.
+# Hi, I am Győző!
 
-> focus
-Reinforcement learning • Computer vision • Deep learning systems • Robotics simulation
+`Budapest, HU` → `ELTE IK · CS BSc` → `Embodied AI`
 
-> current_stack
-Python • PyTorch • NumPy • Gymnasium • Docker • Linux
-
-> next_stack
-MuJoCo • Isaac Lab • ROS 2 • Vision-based control • Offline RL
-```
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-02070B?style=for-the-badge&logo=python&logoColor=7CFF6B&labelColor=02070B">
-  <img src="https://img.shields.io/badge/PyTorch-02070B?style=for-the-badge&logo=pytorch&logoColor=7CFF6B&labelColor=02070B">
-  <img src="https://img.shields.io/badge/NumPy-02070B?style=for-the-badge&logo=numpy&logoColor=7CFF6B&labelColor=02070B">
-  <img src="https://img.shields.io/badge/Gymnasium-02070B?style=for-the-badge&logoColor=7CFF6B&labelColor=02070B">
-  <img src="https://img.shields.io/badge/Docker-02070B?style=for-the-badge&logo=docker&logoColor=7CFF6B&labelColor=02070B">
-  <img src="https://img.shields.io/badge/Linux-02070B?style=for-the-badge&logo=linux&logoColor=7CFF6B&labelColor=02070B">
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/Gymnasium-0081A5?style=flat-square&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MuJoCo-NEXT-1a3a1a?style=for-the-badge&logoColor=7CFF6B&labelColor=02070B">
-  <img src="https://img.shields.io/badge/Isaac_Lab-NEXT-1a3a1a?style=for-the-badge&logo=nvidia&logoColor=7CFF6B&labelColor=02070B">
-  <img src="https://img.shields.io/badge/ROS_2-NEXT-1a3a1a?style=for-the-badge&logo=ros&logoColor=7CFF6B&labelColor=02070B">
-</p>
+> Going deep on RL, computer vision, and the engineering side of deep learning systems — building foundations for embodied AI work in MuJoCo, Isaac Lab, and ROS 2.
 
-```
-══════════════════════════════════════════════════════════════════════════════
-```
+## ❯ projects
 
-## ▸ current_focus
+- `RL` &nbsp;**[rl-gymnasium](https://github.com/H0rvex/rl-gymnasium)** — REINFORCE, DQN, PPO in PyTorch with reproducible configs, multi-seed eval, Docker
+- `CV` &nbsp;**[unet-pet-segmentation](https://github.com/H0rvex/unet-pet-segmentation)** — U-Net semantic segmentation on Oxford-IIIT Pet, 0.7422 mIoU
+- `DL` &nbsp;**[transformer-from-scratch](https://github.com/H0rvex/transformer-from-scratch)** — Attention, embeddings, training loop, from scratch in PyTorch
+- `CV` &nbsp;**[resnet-cifar10](https://github.com/H0rvex/resnet-cifar10)** — ResNet on CIFAR-10, ~90% accuracy, clean training pipeline
 
-```
-╔══════════════════════════════════════╦══════════════════════════════════════╗
-║  reinforcement_learning              ║  computer_vision                     ║
-║  ──────────────────────              ║  ────────────────                    ║
-║  REINFORCE, DQN, PPO,                ║  CNNs, ResNet, U-Net,                ║
-║  Decision Transformers,              ║  segmentation, ViT,                  ║
-║  evaluation, rollouts,               ║  augmentation, metrics               ║
-║  training stability                  ║                                      ║
-╠══════════════════════════════════════╬══════════════════════════════════════╣
-║  deep_learning_systems               ║  robotics_direction                  ║
-║  ─────────────────────               ║  ──────────────────                  ║
-║  Transformers, training loops,       ║  MuJoCo, Isaac Lab, ROS 2,           ║
-║  benchmarking, reproducibility,      ║  embodied control,                   ║
-║  configs, clean PyTorch              ║  perception-to-action pipelines      ║
-╚══════════════════════════════════════╩══════════════════════════════════════╝
-```
+## ❯ learning_next
 
-```
-══════════════════════════════════════════════════════════════════════════════
-```
+- `SIM` &nbsp;MuJoCo + Isaac Lab — embodied control simulation
+- `RL` &nbsp;&nbsp;Offline RL, Decision Transformers
+- `CV` &nbsp;&nbsp;Vision-based control, perception-to-action pipelines
+- `ROS` &nbsp;ROS 2 middleware fundamentals
 
-## ▸ selected_projects
+## ❯ stack
 
-```bash
-> ls -la projects/
-drwxr-xr-x  rl-gymnasium/             # reinforcement learning in PyTorch
-drwxr-xr-x  unet-pet-segmentation/    # semantic segmentation, Oxford-IIIT Pet
-drwxr-xr-x  transformer-from-scratch/ # PyTorch transformer implementation
-```
-
-### `[01]` rl-gymnasium
-
-```
-> cat README.md
-
-  Reinforcement learning implementations in PyTorch with reproducible
-  configs, multi-seed evaluation, plots, tests, Docker, and experiment
-  reports.
-
-  focus  ▸ RL foundations, policy/value learning, GAE, replay buffers,
-           checkpointing, deterministic evaluation, clean experiment
-           structure.
-```
-
-▸ [`open repository`](https://github.com/H0rvex/rl-gymnasium)
+`now` &nbsp;&nbsp;Python · PyTorch · NumPy · Gymnasium · Docker · Linux  
+`next` &nbsp;MuJoCo · Isaac Lab · ROS 2 · Offline RL · Vision-based control
 
 ---
 
-### `[02]` unet-pet-segmentation
-
-```
-> cat README.md
-
-  Semantic segmentation on Oxford-IIIT Pet using a U-Net training
-  pipeline with Dice + CE loss, augmentation, qualitative prediction
-  grids, metrics, and reproducible training.
-
-  focus  ▸ dense prediction, segmentation metrics, training curves,
-           qualitative inspection, perception-style engineering.
-```
-
-▸ [`open repository`](https://github.com/H0rvex/unet-pet-segmentation)
-
----
-
-### `[03]` transformer-from-scratch
-
-```
-> cat README.md
-
-  PyTorch implementation of transformer components including attention,
-  embeddings, training loops, and text classification / language
-  modeling experiments.
-
-  focus  ▸ attention mechanisms, sequence modeling, clean architecture,
-           deep learning fundamentals.
-```
-
-▸ [`open repository`](https://github.com/H0rvex/transformer-from-scratch)
-
-```
-══════════════════════════════════════════════════════════════════════════════
-```
-
-## ▸ direction
-
-```
-> systemctl status learning_pipeline.service
-
-● learning_pipeline.service - Building toward Embodied AI
-   Loaded: loaded (~/learning/roadmap.cfg; enabled)
-   Active: active (running) since 2026-04-01
-
-  [████████████████░░░░░░░░░░░░░░░░] foundations    ML / RL / CV engineering
-  [████████░░░░░░░░░░░░░░░░░░░░░░░░] simulation     MuJoCo, Isaac Lab
-  [███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] embodied_ai    perception → control
-  [█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] research       targeted MSc onwards
-```
-
-```
-══════════════════════════════════════════════════════════════════════════════
-```
-
-```text
-──────────────────────────────────────────────────────────────────────────────
-```
-
-## ▸ Direction
-
-Currently strengthening ML / RL / CV engineering foundations before moving deeper into embodied AI projects using MuJoCo, Isaac Lab, ROS 2, and robotics simulation.
+<sub>`mostly building. occasionally writing about it.`</sub>
