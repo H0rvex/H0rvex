@@ -7,17 +7,17 @@
 `Budapest, HU` → `ELTE IK · CS BSc`
 
 <p>
-  <img src="https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=3776AB">
-  <img src="https://img.shields.io/badge/PyTorch-0B1220?style=for-the-badge&logo=pytorch&logoColor=EE4C2C">
-  <img src="https://img.shields.io/badge/NumPy-0B1220?style=for-the-badge&logo=numpy&logoColor=4DABCF">
-  <img src="https://img.shields.io/badge/Gymnasium-0B1220?style=for-the-badge">
-  <img src="https://img.shields.io/badge/MuJoCo-0B1220?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Docker-0B1220?style=for-the-badge&logo=docker&logoColor=2496ED">
-  <img src="https://img.shields.io/badge/Linux-0B1220?style=for-the-badge&logo=linux&logoColor=FCC624">
-  <img src="https://img.shields.io/badge/CUDA-0B1220?style=for-the-badge&logo=nvidia&logoColor=76B900">
-  <img src="https://img.shields.io/badge/Git-0B1220?style=for-the-badge&logo=git&logoColor=F05032">
-  <img src="https://img.shields.io/badge/pytest-0B1220?style=for-the-badge&logo=pytest&logoColor=0A9EDC">
-  <img src="https://img.shields.io/badge/Matplotlib-0B1220?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/Gymnasium-0081A7?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MuJoCo-111111?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
 </p>
 
 > Going deep on RL, computer vision, and the engineering side of deep learning systems — building foundations for embodied AI work in MuJoCo, Isaac Lab, and ROS 2.
