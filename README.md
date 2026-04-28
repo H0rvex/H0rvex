@@ -21,6 +21,7 @@
 
 ## ❯ projects
 
+- `RL` &nbsp;**[mujoco-continuous-control](https://github.com/H0rvex/mujoco-continuous-control)** — PPO for MuJoCo Walker2d/Ant continuous-control locomotion with squashed Gaussian policies, multi-seed evaluation, rollout videos, diagnostics, Docker
 - `RL` &nbsp;**[rl-gymnasium](https://github.com/H0rvex/rl-gymnasium)** — REINFORCE, DQN, PPO in PyTorch with reproducible configs, multi-seed eval, Docker
 - `CV` &nbsp;**[unet-pet-segmentation](https://github.com/H0rvex/unet-pet-segmentation)** — U-Net semantic segmentation on Oxford-IIIT Pet, 0.7422 mIoU
 - `DL` &nbsp;**[transformer-from-scratch](https://github.com/H0rvex/transformer-from-scratch)** — Attention, embeddings, training loop, from scratch in PyTorch
