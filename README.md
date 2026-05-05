@@ -24,6 +24,7 @@
 
 ## ❯ projects
 
+- `SIM`/`ROS` &nbsp;**[isaaclab-quadruped-robust-locomotion](https://github.com/H0rvex/isaaclab-quadruped-robust-locomotion)** — Isaac Lab Go2 locomotion with PPO/RSL-RL training, robustness/domain-randomization sweeps, policy export, ROS 2 bridge, fake robot-state publisher, and hardware-interface validation.
 - `RL` &nbsp;**[mujoco-continuous-control](https://github.com/H0rvex/mujoco-continuous-control)** — PPO for MuJoCo Walker2d/Ant continuous-control locomotion with squashed Gaussian policies, multi-seed evaluation, rollout videos, diagnostics, Docker
 - `RL` &nbsp;**[rl-gymnasium](https://github.com/H0rvex/rl-gymnasium)** — REINFORCE, DQN, PPO in PyTorch with reproducible configs, multi-seed eval, Docker
 - `CV` &nbsp;**[unet-pet-segmentation](https://github.com/H0rvex/unet-pet-segmentation)** — U-Net semantic segmentation on Oxford-IIIT Pet, 0.7422 mIoU
